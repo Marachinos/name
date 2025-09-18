@@ -17,7 +17,8 @@
         }
         static void Main(string[] args)
         {
-        Console.WriteLine(FormatName("Sandra", "Jonsson"));
+            //skriver ut namnen i 3 olika format
+         Console.WriteLine(FormatName("Sandra", "Jonsson"));
             Console.WriteLine(FormatName("Sandra", "Elisabet Maria", "Jonsson"));
         Console.WriteLine(FormatName("Sandra", "Jonsson", true)); 
         }
