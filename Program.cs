@@ -20,11 +20,15 @@
             //skriver ut namnen i 3 olika format
          Console.WriteLine(FormatName("Sandra", "Jonsson"));
             Console.WriteLine(FormatName("Sandra", "Elisabet Maria", "Jonsson"));
-        Console.WriteLine(FormatName("Sandra", "Jonsson\n", true));
+                Console.WriteLine(FormatName("Sandra", "Jonsson\n", true));
             //skriver ut 3 nya namn i 3 olika format
-            Console.WriteLine(FormatName("Martin", "Jonsson"));
+        Console.WriteLine(FormatName("Martin", "Jonsson"));
             Console.WriteLine(FormatName("Martin", "Helmer", "Jonsson"));
-            Console.WriteLine(FormatName("Martin", "Jonsson", true));
+                Console.WriteLine(FormatName("Martin", "Jonsson\n", true));
+            //skriver ut ytterligare 3 nya namn i 3 olika format
+        Console.WriteLine(FormatName("Evelina", "Jonsson"));
+            Console.WriteLine(FormatName("Evelina", "Maria", "Jonsson"));
+                Console.WriteLine(FormatName("Evelina", "Jonsson\n", true));
         }
     }
 }
